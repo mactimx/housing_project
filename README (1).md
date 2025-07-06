@@ -3,9 +3,10 @@
 
 ## Table of Contents
 
-- [Project Overview](#Project-overview)
+- [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Key Business Questions Answered](#key-business-questions-answered)
+- [Data Analysis Approach](#data-analysis-approach)
 - [Recommendations](#recommendations)
 
 ### Project Overview
@@ -17,7 +18,7 @@ The analysis includes: <br> ✅ **Correlation coefficients** between price and s
 <br> ✅ **Geographic trends** (by ZIP code)
 <br> ✅ **Property size brackets** (small, medium, large homes)
 
-### 📂 Data Sources
+### Data Sources
 
 Real Estate Data: The primary dataset used for this analysis is the "housing.csv" file, containing detailed information about properties.
 
@@ -72,7 +73,7 @@ WHERE
 
 ```
 
-### 🔍 Key Business Questions Answered
+### Key Business Questions Answered
 **1. Pricing Analysis**
 - What is the average, median, and range of home prices in different zip codes?
 - How does price correlate with square footage (living area vs. lot size)?
@@ -97,7 +98,7 @@ WHERE
 - What are the characteristics of homes in different price brackets?
 - How do property features differ between high-end and mid-range homes?
 
-### 📊 Data Analysis Approach
+### Data Analysis Approach
 Using SQL and python the business question was answered as follows:
 **1. Correlation Analysis**
 - Pearson correlation coefficients between price and:
